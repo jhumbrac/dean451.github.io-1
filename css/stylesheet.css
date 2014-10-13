@@ -4,8 +4,8 @@ body {
 	background: url('../images/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: white;
-	background-color: rgb(65, 76, 86);
+	color: #fff;
+	background-color: rgb(82,90,106);
 }
 
 hr {
@@ -33,7 +33,7 @@ hr {
 }
 
 .tagline {
-	font-family: helvetica;
+	font-family: sans-serif;
 	padding-top: 30px;
 	padding-bottom: 30px; 
 	font-size: 26px;
