@@ -4,8 +4,14 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+#bodyCover { 
+	background-color:rgba(0,0,0,.4);
+	margin:0;
+	padding:0;
+	z-index:999;
+}
 #content {
-	margin: 0 0 0 66%;
+	margin: 0 0 0 50%;
 	width:755px;
 }
 #wordmark {
@@ -15,13 +21,13 @@ body {
 	text-shadow:3px 3px #000000;
 	font-size: 250%;
 	background-color: rgba(0, 0, 0, .5);
-	margin: 5% 30% 10%;
+	margin: 10% 0% 10%;
 	border-radius: 50px;
 }
 .header {
 	text-align: center;
 	font-family: 'Old Standard TT', serif;
-	margin: 5% 35% 5%;
+	margin: 5% 0% 5%;
 	color: #FFF;
 	text-shadow:2px 2px #000000;
 	background-color: rgba(0, 0, 0, .7);
