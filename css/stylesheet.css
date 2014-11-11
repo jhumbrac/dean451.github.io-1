@@ -1,40 +1,136 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* {
+ -moz-box-sizing: border-box; /* Firexfox */
+ -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+ box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 
 body {
-	background: url('../images/background.jpg');
+	background-image: url("../images/red-background.jpg"); 
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: #fff;
-	background-color: rgb(82,90,106);
-}
+	color: black;
 
-hr {
-	width: 40px;
-	border-color: rgb(246,85,89);
 }
-
-.stripe {
-	background: url("../images/stripes.png") repeat-x;
-	position: absolute;
-	top: 0px;
+nav {
+	background-color: #aaaaaa;
+	font-family: Arial, sans-serif;
 	width: 100%;
-	height: 15px;
 }
 
-.logoimage {
-	padding-bottom: 30px;
-}
-
-.logowrapper {
+a {
+	transition: background-color 0.5s ease;
+	background-color: rgba(0,0,0, 0.8);
+	color: #FF;
+	text-decoration: none;
 	display: block;
-	padding-top: 300px;
-	padding-left: 120px;
+	padding: 25px;
+	width: 25%;
+	float: left;
+
+	text-align: center;
+}
+.macbook {
+
+	width: 450px;
+	height: 300px;
+	margin-left: 154px;
+
+}
+#content {
+	width: 560px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	float: left;
+}
+.center {
+	text-align: center;
+}
+
+aside {
+	width: 560px;
+	padding: 20px 0;
+	margin: 0 20px 0 0;
+	float: right;
+}
+
+a:hover {
+	background-color: #aaaaaa;
 
 }
 
+.wordmark { 
+	color: #000;
+	font-family: 'Pacifico', cursive;
+	padding: 70px;
+	font-size: 40px;
+	margin: 10px;
+	float: left;
+}
+.wordmarktwo {
+	float: right;
+	padding: 77px;
+}
+.tech {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	padding: 10px;
+}
 .tagline {
-	font-family: sans-serif;
-	padding-top: 30px;
-	padding-bottom: 30px; 
-	font-size: 26px;
+	color: #8C489F;
+	margin: 100px;
+	padding-left: 150px;
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+	letter-spacing: 3px;
+	float: left ;
+}
+.serviceswrapper {
+	text-align: center;
+	padding: 60px;
+}
+.yellow {
+	color: yellow;
+}
+.enjoy {
+	font-family: 'Source Code Pro', arial;
+}
+.italics {
+	font-style: italic;
+}
+.teal {
+	color: #003366;
+}
+.drop {
+	letter-spacing: 4px;
+	text-align: center;
+	font-family: cursive;
+	padding: 10px;
+}
+.html_logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+.css_logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+.responsive_logo {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+
+footer {
+	text-align: center;
+	border-top: solid 1px black;
+	margin-top: 100px;
 }
