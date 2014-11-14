@@ -4,15 +4,6 @@
  box-sizing: border-box; /* IE */
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
 body {
 	background-image: url("../images/red-background.jpg"); 
 	background-size: cover;
@@ -24,6 +15,11 @@ nav {
 	background-color: #aaaaaa;
 	font-family: Arial, sans-serif;
 	width: 100%;
+}
+footer {
+	text-align: center;
+	border-top: solid 1px black;
+	margin-top: 100px;
 }
 
 a {
@@ -129,8 +125,11 @@ a:hover {
 }
 
 
-footer {
-	text-align: center;
-	border-top: solid 1px black;
-	margin-top: 100px;
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ".";
+	clear: both;
+	height: 0;
 }
